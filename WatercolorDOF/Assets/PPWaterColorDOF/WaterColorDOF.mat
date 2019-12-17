@@ -80,7 +80,19 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - displayCoC: 0
-    - samples: 2
+    - ditherCoef: 0.1
+    - ditherPower: 0.16
+    - focusDistance: 30
+    - focusRange: 9
+    - hideDither: 0
+    - hideWatercolor: 0
+    - iterations: 3
+    - maxBlur: 0.99
+    - maxDitherDist: 50000
+    - minDitherDist: 0
+    - samples: 3
+    - visualizeWatercolor: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
